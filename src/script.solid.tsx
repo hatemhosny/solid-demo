@@ -6,7 +6,7 @@ function Counter(props: { name: string }) {
   return (
     <div class="container">
       <h1>Hello, {props.name}!</h1>
-      <img class="logo" alt="logo" src="https://livecodes.io/livecodes/assets/templates/solid.svg" />
+      <img class="logo" alt="logo" src="http://127.0.0.1:8080/livecodes/assets/templates/solid.svg" />
       <p>You clicked {count()} times.</p>
       <button onClick={increment}>Click me</button>
     </div>

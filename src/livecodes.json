@@ -15,7 +15,7 @@
   },
   "script": {
     "language": "solid.tsx",
-    "content": "import { createSignal } from \"solid-js\";\n\nfunction Counter(props: { name: string }) {\n  const [count, setCount] = createSignal(0);\n  const increment = () => setCount(count() + 1);\n  return (\n    <div class=\"container\">\n      <h1>Hello, {props.name}!</h1>\n      <img class=\"logo\" alt=\"logo\" src=\"https://livecodes.io/livecodes/assets/templates/solid.svg\" />\n      <p>You clicked {count()} times.</p>\n      <button onClick={increment}>Click me</button>\n    </div>\n  );\n}\n\nexport default function App() {\n  return <Counter name=\"Solid\" />;\n}\n"
+    "content": "import { createSignal } from \"solid-js\";\n\nfunction Counter(props: { name: string }) {\n  const [count, setCount] = createSignal(0);\n  const increment = () => setCount(count() + 1);\n  return (\n    <div class=\"container\">\n      <h1>Hello, {props.name}!</h1>\n      <img class=\"logo\" alt=\"logo\" src=\"http://127.0.0.1:8080/livecodes/assets/templates/solid.svg\" />\n      <p>You clicked {count()} times.</p>\n      <button onClick={increment}>Click me</button>\n    </div>\n  );\n}\n\nexport default function App() {\n  return <Counter name=\"Solid\" />;\n}\n"
   },
   "stylesheets": [],
   "scripts": [],
