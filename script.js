@@ -5,7 +5,7 @@ import { getNextElement as _$getNextElement } from "solid-js/web";
 import { runHydrationEvents as _$runHydrationEvents } from "solid-js/web";
 import { getNextMarker as _$getNextMarker } from "solid-js/web";
 import { insert as _$insert } from "solid-js/web";
-var _tmpl$ = /*#__PURE__*/_$template(`<div class=container><h1>Hello, <!$><!/>!</h1><img class=logo alt=logo src=http://127.0.0.1:8080/livecodes/assets/templates/solid.svg><p>You clicked <!$><!/> times.</p><button>Click me`);
+var _tmpl$ = /*#__PURE__*/_$template(`<div class=container><h1>Hello, <!$><!/>!</h1><img class=logo alt=logo src=https://livecodes.io/livecodes/assets/templates/solid.svg><p>You clicked <!$><!/> times.</p><button>Click me`);
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
